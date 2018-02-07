@@ -1,13 +1,11 @@
 # Using Node.js Data Science notebooks
 
 ## Introduction
-Notebooks (that’s Jupyter/IPython notebooks, not Moleskine® notebooks) are where data scientists process, analyse, and visualise data in an iterative, collaborative environment. If you are a developer, but not a data scientist, and like the idea of having a scratchpad where you can write some code, iteratively work on some algorithms, and visualise the results quickly, we'll invote you to explore the world of *nodebooks*.
+Notebooks (that’s Jupyter/IPython notebooks, not Moleskine® notebooks) are where data scientists process, analyse, and visualise data in an iterative, collaborative environment. If you are a developer, but not a data scientist, and like the idea of having a scratchpad where you can write some code, iteratively work on some algorithms, and visualise the results quickly, we'll invite you to explore the world of *nodebooks*.
 
 ## Table of Content
 * Setup
-* Part 1: Variables, functions and promises
-* Part 2: Working with data sources
-* Part 3: Sharing data between Python and Node.js
+* Running the samples
 * Credits
 
 ***
@@ -20,9 +18,9 @@ To get started with nodebook you'll need a local installation of
 
 > Nodebooks are currently _not supported_ by the [Watson Data Platform](http://datascience.ibm.com/analytics).
  
-### Accessing the samples
+### Installing the samples
 
-To access the sample nodebooks, clone this repository and launch a Jupyter server on your local machine.
+To access the samples, clone this repository and launch a Jupyter server on your local machine.
 
 ```
  $ git clone https://github.com/ibm-watson-data-lab/nodebook-code-pattern
@@ -30,21 +28,12 @@ To access the sample nodebooks, clone this repository and launch a Jupyter serve
  $ jupyter notebook notebooks/
 ```
 
-***
-## Part 1: Variables, functions, and promises
+## Running the samples
 
-* [Nodebook 1](https://github.com/ibm-watson-data-lab/nodebook-code-pattern/blob/master/notebooks/nodebooks_part_1.ipynb) describes how to use variables, functions, and promises in Python notebooks.
-
-***
-## Part 2: Working with data sources
-
-* [Nodebook 2](https://github.com/ibm-watson-data-lab/nodebook-code-pattern/blob/master/notebooks/nodebooks_part_2.ipynb) outlines how to access external data sources, such as Apache CouchDB or it's managed sibling Cloudant.
-
-***
-## Part 3: Sharing data between Python and Node.js
-
-* [Nodebook 3](https://github.com/ibm-watson-data-lab/nodebook-code-pattern/blob/master/notebooks/nodebooks_part_3.ipynb) yada yada yada
-
+Open [this nodebook](notebooks/nodebook_1.ipynb) to learn more about 
+ * using variables, functions, and promises
+ * working with remote data sources, such as Apache CouchDB (or it's managed sibling Cloudant)
+ * sharing data between Python and Node.js
 
 ## Credits
 
