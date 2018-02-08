@@ -3,6 +3,9 @@
 ## Introduction
 Notebooks (that’s Jupyter/IPython notebooks, not Moleskine® notebooks) are where data scientists process, analyse, and visualise data in an iterative, collaborative environment. If you are a developer, but not a data scientist, and like the idea of having a scratchpad where you can write some code, iteratively work on some algorithms, and visualise the results quickly, we'll invite you to explore the world of *nodebooks*.
 
+![notebook preview](/notebooks/images/notebook_preview.png)
+
+
 ## Table of Content
 * Setup
 * Running the samples
