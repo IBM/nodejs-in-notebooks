@@ -31,9 +31,10 @@ To access the samples, clone this repository and launch a Jupyter server on your
 ## Running the samples
 
 Open [this nodebook](notebooks/nodebook_1.ipynb) to learn more about 
- * using variables, functions, and promises
- * working with remote data sources, such as Apache CouchDB (or it's managed sibling Cloudant)
- * sharing data between Python and Node.js
+ * using variables, functions, and promises,
+ * working with remote data sources, such as Apache CouchDB (or it's managed sibling Cloudant),
+ * visualizing data, and
+ * sharing data between Python and Node.js.
 
 ## Credits
 
