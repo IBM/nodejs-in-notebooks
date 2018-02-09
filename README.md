@@ -49,5 +49,5 @@ Open [nodebook_1](notebooks/nodebook_1.ipynb) to learn more about
 This code pattern is based on a series of blog posts that were first published by [Glynn Bird](https://medium.com/@glynn_bird) on  [medium.com](https://medium.com/ibm-watson-data-lab).
 
 ## License
- Apache-2.0
+ [Apache-2.0](/LICENSE)
 
