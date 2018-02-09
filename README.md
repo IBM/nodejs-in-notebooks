@@ -22,8 +22,6 @@ To get started with nodebook you'll need a local installation of
 
 > **Nodebooks are currently _not supported_ by the [Watson Data Platform](http://datascience.ibm.com/analytics).**
 
-
- 
 ### Installing the samples
 
 To access the samples, clone this repository and launch a Jupyter server on your local machine.
@@ -42,7 +40,13 @@ Open [nodebook_1](notebooks/nodebook_1.ipynb) to learn more about
  * visualizing data, and
  * sharing data between Python and Node.js.
 
+No notebook changes should be required to complete all steps.
+
 ***
+
+## Optional data source customization
+
+Some of the nodebook code pattern examples access a read-only Cloudant database for illustrative purposes. If you prefer you can create your own copy of this database by replicating from remote database URL `http://ibm.biz/nodebook-code-pattern-cloudant-sample-database`.
 
 ## Credits
 
