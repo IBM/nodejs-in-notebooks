@@ -17,9 +17,12 @@ Notebooks (that’s Jupyter/IPython notebooks, not Moleskine® notebooks) are wh
 ### Prerequisites
 To get started with nodebook you'll need a local installation of 
  * [PixieDust and its prerequisites](https://ibm-watson-data-lab.github.io/pixiedust/install.html)
+ * A Python kernel with Spark 2.x. (see section *Install a Jupyter Kernel* in [the PixieDust installation instructions](https://ibm-watson-data-lab.github.io/pixiedust/install.html))
  * [Node.js/npm](https://nodejs.org/en/download/)
 
-> Nodebooks are currently _not supported_ by the [Watson Data Platform](http://datascience.ibm.com/analytics).
+> **Nodebooks are currently _not supported_ by the [Watson Data Platform](http://datascience.ibm.com/analytics).**
+
+
  
 ### Installing the samples
 
