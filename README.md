@@ -46,7 +46,7 @@ No notebook changes should be required to complete all steps.
 
 ## Optional data source customization
 
-Some of the nodebook code pattern examples access a read-only Cloudant database for illustrative purposes. If you prefer you can create your own copy of this database by replicating from remote database URL `http://ibm.biz/nodebook-code-pattern-cloudant-sample-database`.
+Some of the nodebook code pattern examples access a read-only Cloudant database for illustrative purposes. If you prefer you can create your own copy of this database by replicating from remote database URL `https://56953ed8-3fba-4f7e-824e-5498c8e1d18e-bluemix.cloudant.com/cities`. [[Learn more about database replication](https://developer.ibm.com/clouddataservices/docs/cloudant/replication/)...]
 
 ## Credits
 
