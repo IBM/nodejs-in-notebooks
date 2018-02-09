@@ -16,8 +16,8 @@ Notebooks (that’s Jupyter/IPython notebooks, not Moleskine® notebooks) are wh
 
 ### Prerequisites
 To get started with nodebook you'll need a local installation of 
- * Jupyter
- * Node.js
+ * [PixieDust and its prerequisites](https://ibm-watson-data-lab.github.io/pixiedust/install.html)
+ * [Node.js/npm](https://nodejs.org/en/download/)
 
 > Nodebooks are currently _not supported_ by the [Watson Data Platform](http://datascience.ibm.com/analytics).
  
@@ -39,8 +39,12 @@ Open [nodebook_1](notebooks/nodebook_1.ipynb) to learn more about
  * visualizing data, and
  * sharing data between Python and Node.js.
 
+***
+
 ## Credits
 
 This code pattern is based on a series of blog posts that were first published by [Glynn Bird](https://medium.com/@glynn_bird) on  [medium.com](https://medium.com/ibm-watson-data-lab).
 
+## License
+ Apache-2.0
 
