@@ -1,12 +1,16 @@
 # Using Node.js Data Science notebooks
 
 ## Introduction
-Notebooks (that’s Jupyter/IPython notebooks, not Moleskine® notebooks) are where data scientists process, analyse, and visualise data in an iterative, collaborative environment. If you are a developer, but not a data scientist, and like the idea of having a scratchpad where you can write some code, iteratively work on some algorithms, and visualise the results quickly, we'll invite you to explore the world of *nodebooks*.
+Notebooks are where data scientists process, analyse, and visualise data in an iterative, collaborative environment. They typically run environments for languages like Python, R, and Scala. For years, data science notebooks have served academics and research scientists as a scratchpad for writing code, refining algorithms, and sharing and proving their work. Today, it's a workflow that lends itself well to web developers experimenting with data sets in Node.js.
+
+To that end, pixiedust_node is an add-on for Jupyter notebooks that allows Node.js/JavaScript to run inside notebook cells. Not only can web developers use the same workflow for collaborating in Node.js, but they can also use the same tools to work with existing data scientists working in Python.
+
+pixiedust_node is built on the popular PixieDust helper library. Let’s get started.
 
 ![notebook preview](/notebooks/images/notebook_preview.png)
 
 
-## Table of Content
+## Table of Contents
 * Setup
 * Running the samples
 * Credits
@@ -15,7 +19,8 @@ Notebooks (that’s Jupyter/IPython notebooks, not Moleskine® notebooks) are wh
 ## Setup
 
 ### Prerequisites
-To get started with nodebook you'll need a local installation of 
+To get started with nodebooks you'll need a local installation of
+ 
  * [PixieDust and its prerequisites](https://ibm-watson-data-lab.github.io/pixiedust/install.html)
  * A Python kernel with Spark 2.x. (see section *Install a Jupyter Kernel* in [the PixieDust installation instructions](https://ibm-watson-data-lab.github.io/pixiedust/install.html))
  * [Node.js/npm](https://nodejs.org/en/download/)
@@ -34,10 +39,11 @@ To access the samples, clone this repository and launch a Jupyter server on your
 
 ## Running the samples
 
-Open [nodebook_1](notebooks/nodebook_1.ipynb) to learn more about 
+Open [nodebook_1](notebooks/nodebook_1.ipynb) to learn more about
+
  * using variables, functions, and promises,
- * working with remote data sources, such as Apache CouchDB (or it's managed sibling Cloudant),
- * visualizing data, and
+ * working with remote data sources, such as Apache CouchDB (or its managed sibling Cloudant),
+ * visualizing data
  * sharing data between Python and Node.js.
 
 No notebook changes should be required to complete all steps.
