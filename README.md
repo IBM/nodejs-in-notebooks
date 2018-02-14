@@ -22,7 +22,7 @@ pixiedust_node is built on the popular PixieDust helper library. Let’s get sta
 To get started with nodebooks you'll need a local installation of
  
  * [PixieDust and its prerequisites](https://ibm-watson-data-lab.github.io/pixiedust/install.html)
- * A Python kernel with Spark 2.x. (see section *Install a Jupyter Kernel* in [the PixieDust installation instructions](https://ibm-watson-data-lab.github.io/pixiedust/install.html))
+ * A Python 2.7 kernel with Spark 2.x. (see section *Install a Jupyter Kernel* in [the PixieDust installation instructions](https://ibm-watson-data-lab.github.io/pixiedust/install.html))
  * [Node.js/npm](https://nodejs.org/en/download/)
 
 > **Nodebooks are currently _not supported_ by the [Watson Data Platform](http://datascience.ibm.com/analytics).**
