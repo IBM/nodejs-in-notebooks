@@ -28,7 +28,7 @@ A runtime environment in Watson Studio is defined by its hardware and software c
  * Create a new environment definition.
    * Assign a name to the new environment definition, such as `Python 2 with Node.js`.
    * Choose the desired hardware configuration, such as a minimalist free setup (which is sufficient for demonstration purposes).
-   * Select Python 2 as _software version_. (Python 3 is currently not supported)
+   * Select Python 2 as _software version_. (Python 3 is currently not supported by pixiedust_node.)
    * Customize the software configuration by adding the [nodejs conda package](https://anaconda.org/anaconda/nodejs) dependency, as shown below:
      ```
      # Please add conda channels here
@@ -50,20 +50,23 @@ A runtime environment in Watson Studio is defined by its hardware and software c
   You can now associate notebooks with this environment definition and run Node.js in the code cells, as illustrated in the sample notebook. 
   > Note: An environment definition is only available within the project that it was defined in. 
    
-## Loading the sample notebook
+## Loading the getting-started notebook
 
- * In the project you've created, add a new notebook.
+The [getting started notebook](notebooks/nodebook_1.ipynb) outlines how to
+   * use variables, functions, and promises,
+   * work with remote data sources, such as Apache CouchDB (or its managed sibling Cloudant),
+   * visualize data
+   * share data between Python and Node.js.
+   
+In the project you've created, add a new notebook _from URL_.
   * Enter any notebook name.
   * Specify remote URL `https://raw.githubusercontent.com/ibm-watson-data-lab/nodebook-code-pattern/master/notebooks/nodebook_1.ipynb` as source.
   * Select the custom runtime environment `Python 2 with Node.js.` you've created earlier. 
 
    ![create_nodebook](/notebooks/images/new_notebook_custom_environment.png)
- * using variables, functions, and promises,
- * working with remote data sources, such as Apache CouchDB (or its managed sibling Cloudant),
- * visualizing data
- * sharing data between Python and Node.js.
 
-No notebook changes should be required to complete all steps.
+Follow the notebook instructions.
+> You should be able to run all cells without making any changes.
 
 ***
 <a name="real_world"></a>
