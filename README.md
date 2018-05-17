@@ -20,10 +20,10 @@ pixiedust_node is built on the popular [PixieDust](https://github.com/ibm-watson
 
 ## Creating a custom runtime environment
 
-A runtime environment in Watson Studio is defined by its hardware and software configuration. By default, Node.js is not installed in runtime environments and you therefore need to create a custom runtime environment definition. [[Learn more about environments...]](https://dataplatform.ibm.com/docs/content/analyze-data/notebook-environments.html)
+A runtime environment in Watson Studio (IBM's Data Science platform) is defined by its hardware and software configuration. By default, Node.js is not installed in runtime environments and you therefore need to create a custom runtime environment definition. [[Learn more about environments...]](https://dataplatform.ibm.com/docs/content/analyze-data/notebook-environments.html)
 
- * Open [Watson Studio](https://datascience.ibm.com). Sign up for a free account if necessary.
- * [Create a project.](https://dataplatform.ibm.com/projects?context=analytics)
+ * Open [Watson Studio](https://datascience.ibm.com) in your web browser. Sign up for a free account if necessary.
+ * [Create a project.](https://dataplatform.ibm.com/projects?context=analytics) [[Learn more about projects...]](https://dataplatform.ibm.com/docs/content/manage-data/manage-projects.html)
  * In this project, open the **Environments** tab. A list of existing environment definitions for Python and R is displayed.
  * Create a new environment definition.
    * Assign a name to the new environment definition, such as `Python 2 with Node.js`.
@@ -58,7 +58,7 @@ The [getting started notebook](notebooks/nodebook_1.ipynb) outlines how to
    * visualize data
    * share data between Python and Node.js.
    
-In the project you've created, add a new notebook _from URL_.
+In the project you've created, add a new notebook _from URL_:
   * Enter any notebook name.
   * Specify remote URL `https://raw.githubusercontent.com/IBM/nodebook-code-pattern/master/notebooks/nodebook_1.ipynb` as source.
   * Select the custom runtime environment `Python 2 with Node.js.` you've created earlier. 
