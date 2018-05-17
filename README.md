@@ -60,7 +60,7 @@ The [getting started notebook](notebooks/nodebook_1.ipynb) outlines how to
    
 In the project you've created, add a new notebook _from URL_.
   * Enter any notebook name.
-  * Specify remote URL `https://raw.githubusercontent.com/ibm-watson-data-lab/nodebook-code-pattern/master/notebooks/nodebook_1.ipynb` as source.
+  * Specify remote URL `https://raw.githubusercontent.com/IBM/nodebook-code-pattern/master/notebooks/nodebook_1.ipynb` as source.
   * Select the custom runtime environment `Python 2 with Node.js.` you've created earlier. 
 
    ![create_nodebook](/notebooks/images/new_notebook_custom_environment.png)
@@ -86,7 +86,7 @@ To get started with nodebooks you'll need a local installation of
 To access the samples, clone this repository and launch a Jupyter server on your local machine.
 
 ```
- $ git clone https://github.com/ibm-watson-data-lab/nodebook-code-pattern
+ $ git clone https://github.com/IBM/nodebook-code-pattern.git
  $ cd nodebook-code-pattern
  $ jupyter notebook notebooks/
 ```
