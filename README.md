@@ -3,9 +3,9 @@
 ## Introduction
 Notebooks are where data scientists process, analyse, and visualise data in an iterative, collaborative environment. They typically run environments for languages like Python, R, and Scala. For years, data science notebooks have served academics and research scientists as a scratchpad for writing code, refining algorithms, and sharing and proving their work. Today, it's a workflow that lends itself well to web developers experimenting with data sets in Node.js.
 
-To that end, pixiedust_node is an add-on for Jupyter notebooks that allows Node.js/JavaScript to run inside notebook cells. Not only can web developers use the same workflow for collaborating in Node.js, but they can also use the same tools to work with existing data scientists working in Python.
+To that end, [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node) is an add-on for Jupyter notebooks that allows Node.js/JavaScript to run inside notebook cells. Not only can web developers use the same workflow for collaborating in Node.js, but they can also use the same tools to work with existing data scientists working in Python.
 
-pixiedust_node is built on the popular PixieDust helper library. Let’s get started.
+pixiedust_node is built on the popular [PixieDust](https://github.com/ibm-watson-data-lab/pixiedust) helper library. Let’s get started.
 
 ![notebook preview](/notebooks/images/notebook_preview.png)
 
@@ -47,10 +47,10 @@ A runtime environment in Watson Studio is defined by its hardware and software c
  
     ![create_custom_runtime_environment](/notebooks/images/new_custom_environment.png)
     
-  You can now associate notebooks with this environment definition and run Node.js in the code cells, as illustrated in the sample notebook. 
+  You can now associate notebooks with this environment definition and run Node.js in the code cells, as illustrated in the getting started notebook. 
   > Note: An environment definition is only available within the project that it was defined in. 
    
-## Loading the getting-started notebook
+## Loading the getting started notebook
 
 The [getting started notebook](notebooks/nodebook_1.ipynb) outlines how to
    * use variables, functions, and promises,
