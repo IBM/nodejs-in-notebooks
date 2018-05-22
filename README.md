@@ -27,7 +27,7 @@ A runtime environment in Watson Studio (IBM's Data Science platform) is defined 
  * In this project, open the **Environments** tab. A list of existing environment definitions for Python and R is displayed.
  * Create a new environment definition.
    * Assign a name to the new environment definition, such as `Python 2 with Node.js`.
-   * Enter a brief environment desciption.
+   * Enter a brief environment description.
    * Choose the desired hardware configuration, such as a minimalist free setup (which is sufficient for demonstration purposes).
    * Select Python 2 as _software version_. (Python 3 is currently not supported by pixiedust_node.)
  * Customize the software definition.  
