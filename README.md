@@ -1,24 +1,36 @@
-# Using Node.js Data Science notebooks
+# Run Node.js code in Jupyter notebooks
 
-## Introduction
 Notebooks are where data scientists process, analyse, and visualise data in an iterative, collaborative environment. They typically run environments for languages like Python, R, and Scala. For years, data science notebooks have served academics and research scientists as a scratchpad for writing code, refining algorithms, and sharing and proving their work. Today, it's a workflow that lends itself well to web developers experimenting with data sets in Node.js.
 
-To that end, [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node) is an add-on for Jupyter notebooks that allows Node.js/JavaScript to run inside notebook cells. Not only can web developers use the same workflow for collaborating in Node.js, but they can also use the same tools to work with existing data scientists working in Python.
+To that end, [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node) is an add-on for Jupyter notebooks that allows Node.js/JavaScript to run inside notebook cells. To learn more follow the setup steps and explore the getting started notebook.
 
-pixiedust_node is built on the popular [PixieDust](https://github.com/ibm-watson-data-lab/pixiedust) helper library. Let’s get started.
+![preview](/notebooks/images/notebook_preview.png)
 
-![notebook preview](/notebooks/images/notebook_preview.png)
+# Flow
 
+![architecture](/notebooks/images/architecture.png)
 
-## Table of Contents
-* [Running Node.js notebooks in Watson Studio](#cloud)
-* [Running Node.js notebooks in a local environment](#real_world)
+1. Install Node.js in target environment (Watson Studio or a local machine)
+2. Open Node.js notebook in target environment
+3. Run Node.js notebook
 
-***
+# Included Components
+* [Watson Studio](https://datascience.ibm.com): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
+
+## Featured Technologies
+* [Jupyter Notebooks](http://jupyter.org/): An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
+* [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node) Open source Python package, providing support for Javascript/Node.js code
+
+# Steps
+
+You can run Node.js code in Watson Studio or your local environment:
+* [Run Node.js notebooks in Watson Studio](#cloud)
+* [Run Node.js notebooks in a local environment](#real_world)
+
+## Run Node.js notebooks in Watson Studio
 <a name="cloud"></a>
-# Running Node.js notebooks in Watson Studio
 
-## Creating a custom runtime environment
+### Creating a custom runtime environment
 
 A runtime environment in Watson Studio (IBM's Data Science platform) is defined by its hardware and software configuration. By default, Node.js is not installed in runtime environments and you therefore need to create a custom runtime environment definition. [[Learn more about environments...]](https://dataplatform.ibm.com/docs/content/analyze-data/notebook-environments.html)
 
@@ -30,6 +42,7 @@ A runtime environment in Watson Studio (IBM's Data Science platform) is defined 
    * Enter a brief environment description.
    * Choose the desired hardware configuration, such as a minimalist free setup (which is sufficient for demonstration purposes).
    * Select Python 2 as _software version_. (Python 3 is currently not supported by pixiedust_node.)
+   * Save the environment definition.
  * Customize the software definition.  
    * Add the [nodejs conda package](https://anaconda.org/anaconda/nodejs) dependency, as shown below:
      ```
@@ -52,7 +65,7 @@ A runtime environment in Watson Studio (IBM's Data Science platform) is defined 
   You can now associate notebooks with this environment definition and run Node.js in the code cells, as illustrated in the getting started notebook. 
   > Note: An environment definition is only available within the project that it was defined in. 
    
-## Loading the getting started notebook
+### Loading the getting started notebook
 
 The [getting started notebook](notebooks/nodebook_1.ipynb) outlines how to
    * use variables, functions, and promises,
@@ -72,7 +85,7 @@ Follow the notebook instructions.
 
 ***
 <a name="real_world"></a>
-# Running Node.js notebooks in a local environment
+### Run Node.js notebooks in a local environment
 ## Setup
 
 ### Prerequisites
@@ -110,10 +123,10 @@ No notebook changes should be required to complete all steps.
 
 Some of the nodebook code pattern examples access a read-only Cloudant database for illustrative purposes. If you prefer you can create your own copy of this database by replicating from remote database URL `https://56953ed8-3fba-4f7e-824e-5498c8e1d18e-bluemix.cloudant.com/cities`. [[Learn more about database replication](https://developer.ibm.com/clouddataservices/docs/cloudant/replication/)...]
 
-## Credits
+# Links
 
-This code pattern is based on a series of blog posts that were first published by [Glynn Bird](https://medium.com/@glynn_bird) on  [medium.com](https://medium.com/ibm-watson-data-lab).
+# Learn more
 
-## License
- [Apache-2.0](/LICENSE)
+# License
 
+[Apache 2.0](LICENSE)
