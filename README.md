@@ -2,9 +2,9 @@
 
 Notebooks are where data scientists process, analyse, and visualise data in an iterative, collaborative environment. They typically run environments for languages like Python, R, and Scala. For years, data science notebooks have served academics and research scientists as a scratchpad for writing code, refining algorithms, and sharing and proving their work. Today, it's a workflow that lends itself well to web developers experimenting with data sets in Node.js.
 
-To that end, [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node) is an add-on for Jupyter notebooks that allows Node.js/JavaScript to run inside notebook cells. To learn more follow the setup steps and explore the getting started notebook.
+To that end, [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node) is an add-on for Jupyter notebooks that allows Node.js/JavaScript to run inside notebook cells. To learn more follow the setup steps and explore the getting started notebook or click on the sample image below to preview the output.
 
-![preview](/notebooks/images/notebook_preview.png)
+[![preview](/notebooks/images/notebook_preview.png)](/notebooks/nodebook_1.ipynb)
 
 # Flow
 
@@ -19,13 +19,15 @@ To that end, [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_n
 
 ## Featured Technologies
 * [Jupyter Notebooks](http://jupyter.org/): An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
-* [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node) Open source Python package, providing support for Javascript/Node.js code
+* [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node): Open source Python package, providing support for Javascript/Node.js code
 
 # Steps
 
 You can run Node.js code in Watson Studio or your local environment:
 * [Run Node.js notebooks in Watson Studio](#cloud)
 * [Run Node.js notebooks in a local environment](#real_world)
+
+To preview an example notebook without going through a setup [follow this link](#preview).
 
 ## Run Node.js notebooks in Watson Studio
 <a name="cloud"></a>
@@ -123,9 +125,17 @@ No notebook changes should be required to complete all steps.
 
 Some of the nodebook code pattern examples access a read-only Cloudant database for illustrative purposes. If you prefer you can create your own copy of this database by replicating from remote database URL `https://56953ed8-3fba-4f7e-824e-5498c8e1d18e-bluemix.cloudant.com/cities`. [[Learn more about database replication](https://developer.ibm.com/clouddataservices/docs/cloudant/replication/)...]
 
+# Sample Output
+<a name="preview"></a>
+
+Open [this link](/notebooks/nodebook_1.ipynb) to preview the completed notebook.
+
 # Links
+* [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node)
+* [pixiedust](https://github.com/ibm-watson-data-lab/pixiedust)
 
 # Learn more
+* **Watson Studio**: Master the art of data science with IBM's [Watson Studio](https://datascience.ibm.com/)
 
 # License
 
