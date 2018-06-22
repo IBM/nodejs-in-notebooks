@@ -47,14 +47,14 @@ To preview an example notebook without going through a setup [follow this link](
 A runtime environment in Watson Studio (IBM's Data Science platform) is defined by its hardware and software configuration. By default, Node.js is not installed in runtime environments and you therefore need to create a custom runtime environment definition. [[Learn more about environments...]](https://dataplatform.ibm.com/docs/content/analyze-data/notebook-environments.html)
 
  * Open [Watson Studio](https://datascience.ibm.com) in your web browser. Sign up for a free account if necessary.
- * [Create a project.](https://dataplatform.ibm.com/projects?context=analytics) [[Learn more about projects...]](https://dataplatform.ibm.com/docs/content/manage-data/manage-projects.html)
+ * [Create a "Complete" project.](https://dataplatform.ibm.com/projects?context=analytics) [[Learn more about projects...]](https://dataplatform.ibm.com/docs/content/manage-data/manage-projects.html)
  * In this project, open the **Environments** tab. A list of existing environment definitions for Python and R is displayed.
  * Create a new environment definition.
    * Assign a name to the new environment definition, such as `Python 2 with Node.js`.
    * Enter a brief environment description.
    * Choose the desired hardware configuration, such as a minimalist free setup (which is sufficient for demonstration purposes).
    * Select Python 2 as _software version_. (Python 3 is currently not supported by pixiedust_node.)
-   * Save the environment definition.
+   * `Create` the environment definition.
  * Customize the software definition.  
    * Add the [nodejs conda package](https://anaconda.org/anaconda/nodejs) dependency, as shown below:
      ```
@@ -70,7 +70,7 @@ A runtime environment in Watson Studio (IBM's Data Science platform) is defined 
      # To add pip packages, please comment out the next line
      #- pip:
      ```
-   * Save the environment definition. It should look as follows:
+   * `Apply` the customization. It should look as follows:
  
     ![create_custom_runtime_environment](/notebooks/images/new_custom_environment.png)
     
@@ -82,7 +82,7 @@ A runtime environment in Watson Studio (IBM's Data Science platform) is defined 
 The [getting started notebook](notebooks/nodebook_1.ipynb) outlines how to
    * use variables, functions, and promises,
    * work with remote data sources, such as Apache CouchDB (or its managed sibling Cloudant),
-   * visualize data
+   * visualize data,
    * share data between Python and Node.js.
    
 In the project you've created, add a new notebook _from URL_:
@@ -123,7 +123,7 @@ Open [nodebook_1](notebooks/nodebook_1.ipynb) to learn more about
 
  * using variables, functions, and promises,
  * working with remote data sources, such as Apache CouchDB (or its managed sibling Cloudant),
- * visualizing data
+ * visualizing data,
  * sharing data between Python and Node.js.
 
 No notebook changes should be required to complete all steps.
