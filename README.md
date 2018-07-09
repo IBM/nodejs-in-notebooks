@@ -6,20 +6,30 @@ To that end, [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_n
 
 [![preview](/notebooks/images/notebook_preview.png)](/notebooks/nodebook_1.ipynb)
 
-# Flow
+When the reader has completed this Code Pattern, they will understand how to:
 
-![architecture](/notebooks/images/architecture.png)
+* Run Node.js/JavaScript inside a Jupyter Notebook
+* Use JavaScript variables, functions, and promises
+* Work with remote data sources
+* Share data between Python and Node.js
+
+![architecture](doc/source/images/architecture.png)
+
+## Flow
 
 1. Install Node.js in target environment (Watson Studio or a local machine)
 2. Open Node.js notebook in target environment
 3. Run Node.js notebook
 
-# Included Components
+## Included Components
 * [Watson Studio](https://datascience.ibm.com): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
+* [Jupyter Notebook](http://jupyter.org/): An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
+* [PixieDust](https://github.com/ibm-watson-data-lab/pixiedust): Provides a Python helper library for IPython Notebook.
+* [Cloudant NoSQL DB](https://console.ng.bluemix.net/catalog/services/cloudant-nosql-db): A fully managed data layer designed for modern web and mobile applications that leverages a flexible JSON schema.
 
 ## Featured Technologies
-* [Jupyter Notebooks](http://jupyter.org/): An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
-* [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node): Open source Python package, providing support for Javascript/Node.js code
+* [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node): Open source Python package, providing support for Javascript/Node.js code.
+* [Node.js](https://nodejs.org/): An open-source JavaScript run-time environment for executing server-side JavaScript code.
 
 # Steps
 
@@ -37,14 +47,14 @@ To preview an example notebook without going through a setup [follow this link](
 A runtime environment in Watson Studio (IBM's Data Science platform) is defined by its hardware and software configuration. By default, Node.js is not installed in runtime environments and you therefore need to create a custom runtime environment definition. [[Learn more about environments...]](https://dataplatform.ibm.com/docs/content/analyze-data/notebook-environments.html)
 
  * Open [Watson Studio](https://datascience.ibm.com) in your web browser. Sign up for a free account if necessary.
- * [Create a project.](https://dataplatform.ibm.com/projects?context=analytics) [[Learn more about projects...]](https://dataplatform.ibm.com/docs/content/manage-data/manage-projects.html)
+ * [Create a "Complete" project.](https://dataplatform.ibm.com/projects?context=analytics) [[Learn more about projects...]](https://dataplatform.ibm.com/docs/content/manage-data/manage-projects.html)
  * In this project, open the **Environments** tab. A list of existing environment definitions for Python and R is displayed.
  * Create a new environment definition.
    * Assign a name to the new environment definition, such as `Python 2 with Node.js`.
    * Enter a brief environment description.
    * Choose the desired hardware configuration, such as a minimalist free setup (which is sufficient for demonstration purposes).
    * Select Python 2 as _software version_. (Python 3 is currently not supported by pixiedust_node.)
-   * Save the environment definition.
+   * `Create` the environment definition.
  * Customize the software definition.  
    * Add the [nodejs conda package](https://anaconda.org/anaconda/nodejs) dependency, as shown below:
      ```
@@ -60,7 +70,7 @@ A runtime environment in Watson Studio (IBM's Data Science platform) is defined 
      # To add pip packages, please comment out the next line
      #- pip:
      ```
-   * Save the environment definition. It should look as follows:
+   * `Apply` the customization. It should look as follows:
  
     ![create_custom_runtime_environment](/notebooks/images/new_custom_environment.png)
     
@@ -72,7 +82,7 @@ A runtime environment in Watson Studio (IBM's Data Science platform) is defined 
 The [getting started notebook](notebooks/nodebook_1.ipynb) outlines how to
    * use variables, functions, and promises,
    * work with remote data sources, such as Apache CouchDB (or its managed sibling Cloudant),
-   * visualize data
+   * visualize data,
    * share data between Python and Node.js.
    
 In the project you've created, add a new notebook _from URL_:
@@ -87,8 +97,7 @@ Follow the notebook instructions.
 
 ***
 <a name="real_world"></a>
-### Run Node.js notebooks in a local environment
-## Setup
+## Run Node.js notebooks in a local environment
 
 ### Prerequisites
 To get started with nodebooks you'll need a local installation of
@@ -108,13 +117,13 @@ To access the samples, clone this repository and launch a Jupyter server on your
  $ jupyter notebook notebooks/
 ```
 
-## Running the samples
+### Running the samples
 
 Open [nodebook_1](notebooks/nodebook_1.ipynb) to learn more about
 
  * using variables, functions, and promises,
  * working with remote data sources, such as Apache CouchDB (or its managed sibling Cloudant),
- * visualizing data
+ * visualizing data,
  * sharing data between Python and Node.js.
 
 No notebook changes should be required to complete all steps.
@@ -136,6 +145,8 @@ Open [this link](/notebooks/nodebook_1.ipynb) to preview the completed notebook.
 
 # Learn more
 * **Watson Studio**: Master the art of data science with IBM's [Watson Studio](https://datascience.ibm.com/)
+* **Data Analytics Code Patterns**: Enjoyed this Code Pattern? Check out our other [Data Analytics Code Patterns](https://developer.ibm.com/code/technologies/data-science/)
+* **With Watson**: Want to take your Watson app to the next level? Looking to utilize Watson Brand assets? [Join the With Watson program](https://www.ibm.com/watson/with-watson/) to leverage exclusive brand, marketing, and tech resources to amplify and accelerate your Watson embedded commercial solution.
 
 # License
 
