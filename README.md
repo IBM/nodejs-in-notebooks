@@ -4,7 +4,7 @@ Notebooks are where data scientists process, analyse, and visualise data in an i
 
 To that end, [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node) is an add-on for Jupyter notebooks that allows Node.js/JavaScript to run inside notebook cells. To learn more follow the setup steps and explore the getting started notebook or click on the sample image below to preview the output.
 
-[![preview](doc/source/images/notebook_preview.png)](/notebooks/nodebook_1.ipynb)
+[![preview](doc/source/images/notebook_preview.png)](http://nbviewer.jupyter.org/github/IBM/nodejs-in-notebooks/blob/master/data/examples/nodebook_1.ipynb)
 
 When the reader has completed this Code Pattern, they will understand how to:
 
@@ -37,7 +37,7 @@ You can run Node.js code in Watson Studio or your local environment:
 * [Run Node.js notebooks in Watson Studio](#cloud)
 * [Run Node.js notebooks in a local environment](#real_world)
 
-To preview an example notebook without going through a setup [follow this link](/notebooks/nodebook_1.ipynb).
+To preview an example notebook without going through a setup [follow this link](http://nbviewer.jupyter.org/github/IBM/nodejs-in-notebooks/blob/master/data/examples/nodebook_1.ipynb).
 
 ## Run Node.js notebooks in Watson Studio
 <a name="cloud"></a>
@@ -137,7 +137,7 @@ Some of the nodebook code pattern examples access a read-only Cloudant database 
 # Sample Output
 <a name="preview"></a>
 
-Open [this link](/notebooks/nodebook_1.ipynb) to preview the completed notebook.
+Open [this link](http://nbviewer.jupyter.org/github/IBM/nodejs-in-notebooks/blob/master/data/examples/nodebook_1.ipynb) to preview the completed notebook.
 
 # Links
 * [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node)
