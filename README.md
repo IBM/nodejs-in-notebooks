@@ -4,7 +4,7 @@ Notebooks are where data scientists process, analyse, and visualise data in an i
 
 To that end, [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node) is an add-on for Jupyter notebooks that allows Node.js/JavaScript to run inside notebook cells. To learn more follow the setup steps and explore the getting started notebook or click on the sample image below to preview the output.
 
-[![preview](/notebooks/images/notebook_preview.png)](/notebooks/nodebook_1.ipynb)
+[![preview](doc/source/images/notebook_preview.png)](/notebooks/nodebook_1.ipynb)
 
 When the reader has completed this Code Pattern, they will understand how to:
 
@@ -25,7 +25,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 * [Watson Studio](https://datascience.ibm.com): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
 * [Jupyter Notebook](http://jupyter.org/): An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
 * [PixieDust](https://github.com/ibm-watson-data-lab/pixiedust): Provides a Python helper library for IPython Notebook.
-* [Cloudant NoSQL DB](https://console.ng.bluemix.net/catalog/services/cloudant-nosql-db): A fully managed data layer designed for modern web and mobile applications that leverages a flexible JSON schema.
+* [Cloudant NoSQL DB](https://console.ng.bluemix.net/catalog/services/cloudant): A fully managed data layer designed for modern web and mobile applications that leverages a flexible JSON schema.
 
 ## Featured Technologies
 * [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node): Open source Python package, providing support for Javascript/Node.js code.
@@ -37,7 +37,7 @@ You can run Node.js code in Watson Studio or your local environment:
 * [Run Node.js notebooks in Watson Studio](#cloud)
 * [Run Node.js notebooks in a local environment](#real_world)
 
-To preview an example notebook without going through a setup [follow this link](#preview).
+To preview an example notebook without going through a setup [follow this link](/notebooks/nodebook_1.ipynb).
 
 ## Run Node.js notebooks in Watson Studio
 <a name="cloud"></a>
@@ -72,7 +72,7 @@ A runtime environment in Watson Studio (IBM's Data Science platform) is defined 
      ```
    * `Apply` the customization. It should look as follows:
  
-    ![create_custom_runtime_environment](/notebooks/images/new_custom_environment.png)
+     ![create_custom_runtime_environment](doc/source/images/new_custom_environment.png)
     
   You can now associate notebooks with this environment definition and run Node.js in the code cells, as illustrated in the getting started notebook. 
   > Note: An environment definition is only available within the project that it was defined in. 
@@ -90,10 +90,10 @@ In the project you've created, add a new notebook _from URL_:
   * Specify remote URL `https://raw.githubusercontent.com/IBM/nodebook-code-pattern/master/notebooks/nodebook_1.ipynb` as source.
   * Select the custom runtime environment `Python 2 with Node.js.` you've created earlier. 
 
-   ![create_nodebook](/notebooks/images/new_notebook_custom_environment.png)
+    ![create_nodebook](doc/source/images/new_notebook_custom_environment.png)
 
 Follow the notebook instructions.
-> You should be able to run all cells without making any changes.
+> You should be able to run all cells one at a time without making any changes. Do not use run all.
 
 ***
 <a name="real_world"></a>
@@ -112,9 +112,9 @@ To get started with nodebooks you'll need a local installation of
 To access the samples, clone this repository and launch a Jupyter server on your local machine.
 
 ```
- $ git clone https://github.com/IBM/nodebook-code-pattern.git
- $ cd nodebook-code-pattern
- $ jupyter notebook notebooks/
+git clone https://github.com/IBM/nodejs-in-notebooks.git
+cd nodejs-in-notebooks
+jupyter notebook notebooks/
 ```
 
 ### Running the samples
@@ -126,7 +126,7 @@ Open [nodebook_1](notebooks/nodebook_1.ipynb) to learn more about
  * visualizing data,
  * sharing data between Python and Node.js.
 
-No notebook changes should be required to complete all steps.
+> You should be able to run all cells one at a time without making any changes. Do not use run all.
 
 ***
 
@@ -142,6 +142,9 @@ Open [this link](/notebooks/nodebook_1.ipynb) to preview the completed notebook.
 # Links
 * [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node)
 * [pixiedust](https://github.com/ibm-watson-data-lab/pixiedust)
+ * [Nodebooks: Introducing Node.js Data Science Notebooks](https://medium.com/ibm-watson-data-lab/nodebooks-node-js-data-science-notebooks-aa140bea21ba)
+ * [Nodebooks: Sharing Data Between Node.js & Python](https://medium.com/ibm-watson-data-lab/nodebooks-sharing-data-between-node-js-python-3a4acae27a02)
+ * [Sharing Variables Between Python & Node.js in Jupyter Notebooks](https://medium.com/ibm-watson-data-lab/sharing-variables-between-python-node-js-in-jupyter-notebooks-682a79d4bdd9)
 
 # Learn more
 * **Watson Studio**: Master the art of data science with IBM's [Watson Studio](https://datascience.ibm.com/)
