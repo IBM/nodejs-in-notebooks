@@ -37,7 +37,7 @@ You can run Node.js code in Watson Studio or your local environment:
 * [Run Node.js notebooks in Watson Studio](#cloud)
 * [Run Node.js notebooks in a local environment](#real_world)
 
-To preview an example notebook without going through a setup [follow this link](#preview).
+To preview an example notebook without going through a setup [follow this link](/notebooks/nodebook_1.ipynb).
 
 ## Run Node.js notebooks in Watson Studio
 <a name="cloud"></a>
@@ -93,7 +93,7 @@ In the project you've created, add a new notebook _from URL_:
    ![create_nodebook](/notebooks/images/new_notebook_custom_environment.png)
 
 Follow the notebook instructions.
-> You should be able to run all cells without making any changes.
+> You should be able to run all cells one at a time without making any changes. Do not use run all.
 
 ***
 <a name="real_world"></a>
@@ -126,7 +126,7 @@ Open [nodebook_1](notebooks/nodebook_1.ipynb) to learn more about
  * visualizing data,
  * sharing data between Python and Node.js.
 
-No notebook changes should be required to complete all steps.
+> You should be able to run all cells one at a time without making any changes. Do not use run all.
 
 ***
 
