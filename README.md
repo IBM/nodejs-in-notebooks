@@ -112,9 +112,9 @@ To get started with nodebooks you'll need a local installation of
 To access the samples, clone this repository and launch a Jupyter server on your local machine.
 
 ```
-git clone https://github.com/IBM/nodejs-in-notebooks.git
-cd nodejs-in-notebooks
-jupyter notebook notebooks/
+$ git clone https://github.com/IBM/nodejs-in-notebooks.git
+$ cd nodejs-in-notebooks
+$ jupyter notebook notebooks/
 ```
 
 ### Running the samples
