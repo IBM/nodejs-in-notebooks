@@ -2,7 +2,7 @@
 
 Notebooks are where data scientists process, analyse, and visualise data in an iterative, collaborative environment. They typically run environments for languages like Python, R, and Scala. For years, data science notebooks have served academics and research scientists as a scratchpad for writing code, refining algorithms, and sharing and proving their work. Today, it's a workflow that lends itself well to web developers experimenting with data sets in Node.js.
 
-To that end, [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node) is an add-on for Jupyter notebooks that allows Node.js/JavaScript to run inside notebook cells. To learn more follow the setup steps and explore the getting started notebook or click on the sample image below to preview the output.
+To that end, [pixiedust_node](https://github.com/pixiedust/pixiedust_node) is an add-on for Jupyter notebooks that allows Node.js/JavaScript to run inside notebook cells. To learn more follow the setup steps and explore the getting started notebook or click on the sample image below to preview the output.
 
 [![preview](doc/source/images/notebook_preview.png)](http://nbviewer.jupyter.org/github/IBM/nodejs-in-notebooks/blob/master/data/examples/nodebook_1.ipynb)
 
@@ -24,11 +24,11 @@ When the reader has completed this Code Pattern, they will understand how to:
 ## Included Components
 * [Watson Studio](https://datascience.ibm.com): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
 * [Jupyter Notebook](http://jupyter.org/): An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
-* [PixieDust](https://github.com/ibm-watson-data-lab/pixiedust): Provides a Python helper library for IPython Notebook.
+* [PixieDust](https://github.com/pixiedust/pixiedust): Provides a Python helper library for IPython Notebook.
 * [Cloudant NoSQL DB](https://console.ng.bluemix.net/catalog/services/cloudant): A fully managed data layer designed for modern web and mobile applications that leverages a flexible JSON schema.
 
 ## Featured Technologies
-* [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node): Open source Python package, providing support for Javascript/Node.js code.
+* [pixiedust_node](https://github.com/pixiedust/pixiedust_node): Open source Python package, providing support for Javascript/Node.js code.
 * [Node.js](https://nodejs.org/): An open-source JavaScript run-time environment for executing server-side JavaScript code.
 
 # Steps
@@ -102,8 +102,8 @@ Follow the notebook instructions.
 ### Prerequisites
 To get started with nodebooks you'll need a local installation of
  
- * [PixieDust and its prerequisites](https://ibm-watson-data-lab.github.io/pixiedust/install.html)
- * A Python 2.7 kernel with Spark 2.x. (see section *Install a Jupyter Kernel* in [the PixieDust installation instructions](https://ibm-watson-data-lab.github.io/pixiedust/install.html))
+ * [PixieDust and its prerequisites](https://pixiedust.github.io/pixiedust/install.html)
+ * A Python 2.7 kernel with Spark 2.x. (see section *Install a Jupyter Kernel* in [the PixieDust installation instructions](https://pixiedust.github.io/pixiedust/install.html))
  * [Node.js/npm](https://nodejs.org/en/download/)
 
 
@@ -140,8 +140,8 @@ Some of the nodebook code pattern examples access a read-only Cloudant database 
 Open [this link](http://nbviewer.jupyter.org/github/IBM/nodejs-in-notebooks/blob/master/data/examples/nodebook_1.ipynb) to preview the completed notebook.
 
 # Links
-* [pixiedust_node](https://github.com/ibm-watson-data-lab/pixiedust_node)
-* [pixiedust](https://github.com/ibm-watson-data-lab/pixiedust)
+* [pixiedust_node](https://github.com/pixiedust/pixiedust_node)
+* [pixiedust](https://github.com/pixiedust/pixiedust)
  * [Nodebooks: Introducing Node.js Data Science Notebooks](https://medium.com/ibm-watson-data-lab/nodebooks-node-js-data-science-notebooks-aa140bea21ba)
  * [Nodebooks: Sharing Data Between Node.js & Python](https://medium.com/ibm-watson-data-lab/nodebooks-sharing-data-between-node-js-python-3a4acae27a02)
  * [Sharing Variables Between Python & Node.js in Jupyter Notebooks](https://medium.com/ibm-watson-data-lab/sharing-variables-between-python-node-js-in-jupyter-notebooks-682a79d4bdd9)
