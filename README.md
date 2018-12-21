@@ -25,7 +25,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 * [Watson Studio](https://datascience.ibm.com): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
 * [Jupyter Notebook](http://jupyter.org/): An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
 * [PixieDust](https://github.com/pixiedust/pixiedust): Provides a Python helper library for IPython Notebook.
-* [Cloudant NoSQL DB](https://console.ng.bluemix.net/catalog/services/cloudant): A fully managed data layer designed for modern web and mobile applications that leverages a flexible JSON schema.
+* [Cloudant NoSQL DB](https://cloud.ibm.com/catalog/services/cloudant): A fully managed data layer designed for modern web and mobile applications that leverages a flexible JSON schema.
 
 ## Featured Technologies
 * [pixiedust_node](https://github.com/pixiedust/pixiedust_node): Open source Python package, providing support for Javascript/Node.js code.
