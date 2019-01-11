@@ -4,7 +4,7 @@ Notebooks are where data scientists process, analyse, and visualise data in an i
 
 To that end, [pixiedust_node](https://github.com/pixiedust/pixiedust_node) is an add-on for Jupyter notebooks that allows Node.js/JavaScript to run inside notebook cells. To learn more follow the setup steps and explore the getting started notebook or click on the sample image below to preview the output.
 
-[![preview](doc/source/images/notebook_preview.png)](http://nbviewer.jupyter.org/github/IBM/nodejs-in-notebooks/blob/master/data/examples/nodebook_1.ipynb)
+[![preview](doc/source/images/notebook_preview.png)](https://nbviewer.jupyter.org/github/IBM/nodejs-in-notebooks/blob/master/data/examples/nodebook_1.ipynb)
 
 When the reader has completed this Code Pattern, they will understand how to:
 
@@ -22,8 +22,8 @@ When the reader has completed this Code Pattern, they will understand how to:
 3. Run Node.js notebook
 
 ## Included Components
-* [Watson Studio](https://datascience.ibm.com): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
-* [Jupyter Notebook](http://jupyter.org/): An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
+* [Watson Studio](https://www.ibm.com/cloud/watson-studio): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
+* [Jupyter Notebook](https://jupyter.org/): An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
 * [PixieDust](https://github.com/pixiedust/pixiedust): Provides a Python helper library for IPython Notebook.
 * [Cloudant NoSQL DB](https://cloud.ibm.com/catalog/services/cloudant): A fully managed data layer designed for modern web and mobile applications that leverages a flexible JSON schema.
 
@@ -34,19 +34,18 @@ When the reader has completed this Code Pattern, they will understand how to:
 # Steps
 
 You can run Node.js code in Watson Studio or your local environment:
-* [Run Node.js notebooks in Watson Studio](#cloud)
-* [Run Node.js notebooks in a local environment](#real_world)
+* [Run Node.js notebooks in Watson Studio](#run-nodejs-notebooks-in-watson-studio)
+* [Run Node.js notebooks in a local environment](#run-nodejs-notebooks-in-a-local-environment)
 
-To preview an example notebook without going through a setup [follow this link](http://nbviewer.jupyter.org/github/IBM/nodejs-in-notebooks/blob/master/data/examples/nodebook_1.ipynb).
+To preview an example notebook without going through a setup [follow this link](https://nbviewer.jupyter.org/github/IBM/nodejs-in-notebooks/blob/master/data/examples/nodebook_1.ipynb).
 
 ## Run Node.js notebooks in Watson Studio
-<a name="cloud"></a>
 
 ### Creating a custom runtime environment
 
 A runtime environment in Watson Studio (IBM's Data Science platform) is defined by its hardware and software configuration. By default, Node.js is not installed in runtime environments and you therefore need to create a custom runtime environment definition. [[Learn more about environments...]](https://dataplatform.ibm.com/docs/content/analyze-data/notebook-environments.html)
 
- * Open [Watson Studio](https://datascience.ibm.com) in your web browser. Sign up for a free account if necessary.
+ * Open [Watson Studio](https://www.ibm.com/cloud/watson-studio) in your web browser. Sign up for a free account if necessary.
  * [Create a "Complete" project.](https://dataplatform.ibm.com/projects?context=analytics) [[Learn more about projects...]](https://dataplatform.ibm.com/docs/content/manage-data/manage-projects.html)
  * In this project, open the **Environments** tab. A list of existing environment definitions for Python and R is displayed.
  * Create a new environment definition.
@@ -96,7 +95,7 @@ Follow the notebook instructions.
 > You should be able to run all cells one at a time without making any changes. Do not use run all.
 
 ***
-<a name="real_world"></a>
+
 ## Run Node.js notebooks in a local environment
 
 ### Prerequisites
@@ -137,7 +136,7 @@ Some of the nodebook code pattern examples access a read-only Cloudant database 
 # Sample Output
 <a name="preview"></a>
 
-Open [this link](http://nbviewer.jupyter.org/github/IBM/nodejs-in-notebooks/blob/master/data/examples/nodebook_1.ipynb) to preview the completed notebook.
+Open [this link](https://nbviewer.jupyter.org/github/IBM/nodejs-in-notebooks/blob/master/data/examples/nodebook_1.ipynb) to preview the completed notebook.
 
 # Links
 * [pixiedust_node](https://github.com/pixiedust/pixiedust_node)
@@ -147,12 +146,12 @@ Open [this link](http://nbviewer.jupyter.org/github/IBM/nodejs-in-notebooks/blob
  * [Sharing Variables Between Python & Node.js in Jupyter Notebooks](https://medium.com/ibm-watson-data-lab/sharing-variables-between-python-node-js-in-jupyter-notebooks-682a79d4bdd9)
 
 # Learn more
-* **Watson Studio**: Master the art of data science with IBM's [Watson Studio](https://datascience.ibm.com/)
-* **Data Analytics Code Patterns**: Enjoyed this Code Pattern? Check out our other [Data Analytics Code Patterns](https://developer.ibm.com/code/technologies/data-science/)
+* **Watson Studio**: Master the art of data science with IBM's [Watson Studio](https://www.ibm.com/cloud/watson-studio/)
+* **Data Analytics Code Patterns**: Enjoyed this Code Pattern? Check out our other [Data Analytics Code Patterns](https://developer.ibm.com/technologies/data-science/)
 * **With Watson**: Want to take your Watson app to the next level? Looking to utilize Watson Brand assets? [Join the With Watson program](https://www.ibm.com/watson/with-watson/) to leverage exclusive brand, marketing, and tech resources to amplify and accelerate your Watson embedded commercial solution.
 
 # License
 
-This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](http://www.apache.org/licenses/LICENSE-2.0.txt).
+This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
-[Apache Software License (ASL) FAQ](http://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
+[Apache Software License (ASL) FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
